@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DolomitiWebNest | Web Agency per Affitti Brevi e BnB in Trentino</title>
+    <meta
+      name="description"
+      content="DolomitiWebNest crea siti web e strategie digitali per affitti brevi e BnB in Trentino."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header" id="home">
+      <nav class="nav container">
+        <a class="logo" href="#home">dolomiti<span>web</span>nest</a>
+        <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false">☰</button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#chi-siamo">Chi siamo?</a></li>
+          <li class="has-submenu">
+            <a href="#servizi">Servizi</a>
+            <ul class="submenu">
+              <li><a href="#web-design">Web Design</a></li>
+              <li><a href="#booking">Ottimizzazione Booking</a></li>
+              <li><a href="#branding">Branding Territoriale</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu">
+            <a href="#portfolio">Portfolio</a>
+            <ul class="submenu">
+              <li><a href="#case-study">Case Study</a></li>
+              <li><a href="#risultati">Risultati</a></li>
+            </ul>
+          </li>
+          <li><a href="#processo">Metodo</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+          <li><a class="cta-link" href="#preventivo">Preventivo</a></li>
+        </ul>
+      </nav>
+
+      <section class="hero container">
+        <div>
+          <p class="tag">Web agency specializzata in ospitalità trentina</p>
+          <h1>
+            Trasformiamo il tuo affitto breve in un'esperienza digitale che conquista,
+            prenota e fidelizza.
+          </h1>
+          <p>
+            Siamo <strong>Mirko Bosetti</strong> e <strong>Lorenzo Mercurio Fedel</strong>,
+            fondatori di DolomitiWebNest: uniamo sviluppo web audace e cultura
+            dell'accoglienza per far crescere BnB e appartamenti turistici in Trentino.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#preventivo">Richiedi un preventivo</a>
+            <a class="btn secondary" href="#servizi">Scopri i servizi</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Perché scegliere DolomitiWebNest</h2>
+          <ul>
+            <li>Nati come host: conosciamo il vero lavoro dietro ogni check-in.</li>
+            <li>Design moderno one page orientato a conversioni e prenotazioni dirette.</li>
+            <li>Soluzioni “cernieristiche”: cucite su misura per ogni struttura.</li>
+          </ul>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="chi-siamo" class="section container">
+        <h2>Chi siamo?</h2>
+        <p>
+          Operiamo con il cuore nell'ospitalità trentina: nasciamo come proprietari di
+          appartamenti e sappiamo cosa significa valorizzare il territorio, raccontare le
+          sue mille opportunità e offrire agli ospiti un soggiorno memorabile.
+        </p>
+      </section>
+
+      <section id="servizi" class="section section-alt">
+        <div class="container">
+          <h2>Servizi</h2>
+          <div class="grid-3">
+            <article class="card" id="web-design">
+              <h3>Web Design & One Page Sites</h3>
+              <p>
+                Creiamo vetrine digitali veloci, emozionali e mobile-first, perfette per
+                raccontare la tua struttura tra montagne, borghi e natura.
+              </p>
+            </article>
+            <article class="card" id="booking">
+              <h3>Ottimizzazione Booking Engine</h3>
+              <p>
+                Miglioriamo funnel e contenuti per aumentare richieste dirette e ridurre la
+                dipendenza dai portali OTA.
+              </p>
+            </article>
+            <article class="card" id="branding">
+              <h3>Branding Territoriale</h3>
+              <p>
+                Definiamo tono, immagini e storytelling autentico per distinguerti e far
+                vivere il vero Trentino già dal primo click.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section container">
+        <h2>Portfolio</h2>
+        <div class="grid-2" id="case-study">
+          <article class="card">
+            <h3>Case Study: Chalet Vista Brenta</h3>
+            <p>
+              Restyling completo, nuova one-page e integrazione contatti rapidi: +42% di
+              richieste dirette in alta stagione.
+            </p>
+          </article>
+          <article class="card" id="risultati">
+            <h3>Risultati misurabili</h3>
+            <p>
+              Monitoriamo traffico, conversioni e qualità lead per ottimizzare costantemente
+              la tua presenza online.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="processo" class="section section-alt">
+        <div class="container">
+          <h2>Il nostro metodo</h2>
+          <ol class="steps">
+            <li>Analisi struttura e target ospiti.</li>
+            <li>Proposta strategica con piano contenuti e UX.</li>
+            <li>Sviluppo, lancio e supporto continuo.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="preventivo" class="section container">
+        <h2>Preventivo</h2>
+        <p>
+          Parlaci del tuo progetto: ti prepariamo una proposta su misura in 48 ore, chiara,
+          concreta e orientata ai risultati.
+        </p>
+        <form class="quote-form">
+          <label>
+            Nome struttura
+            <input type="text" placeholder="Es. BnB Le Dolomiti" required />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="nome@email.it" required />
+          </label>
+          <label>
+            Cosa ti serve?
+            <textarea rows="4" placeholder="Sito, branding, supporto booking..."></textarea>
+          </label>
+          <button type="submit" class="btn primary">Invia richiesta</button>
+        </form>
+      </section>
+    </main>
+
+    <footer id="contatti" class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Contatti</h3>
+          <p>Email: ciao@dolomitiwebnest.it</p>
+          <p>Telefono: +39 333 000 0000</p>
+        </div>
+        <div>
+          <h3>Area di attività</h3>
+          <p>Trento · Val di Fassa · Val Rendena · Altopiano di Piné</p>
+        </div>
+        <div>
+          <h3>DolomitiWebNest</h3>
+          <p>Web agency per affitti brevi e BnB del Trentino.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
